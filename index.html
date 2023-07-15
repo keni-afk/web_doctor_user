@@ -4,12 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="icon" href="/images/healthy-life.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Chat App</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
+<<<<<<< HEAD
         <div class="back">
             <div class="menu container">
                 <a href="#" class="logo">logo</a>
@@ -24,12 +29,36 @@
                         <li><a href="#">Equipo</a></li>
                         <li><a href="#">Contacto</a></li>
                         <li><a href="login.html">Bienvenido</a></li>
+=======
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <img src="/images/healthy-life.svg" alt="logo" style="width: 200px;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="" id="navbarNav" style="width: 100%;">
+                    <ul class="navbar-nav" style="justify-content: space-evenly;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/views/servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">EQUIPO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACTO</a>
+                        </li>
+>>>>>>> ca0b0e9b692bf3c0d5d69497c0e367e0c238e285
                     </ul>
-                </nav>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
-    <!-- Person selector: this contains buttons for user to select whether to chat as John or Jane -->
+    <main>
+        <!-- Person selector: this contains buttons for user to select whether to chat as John or Jane -->
     <div class="person-selector">
         <button class="button person-selector-button active-person" id="john-selector">John</button>
         <button class="button person-selector-button" id="jane-selector">Jane</button>
@@ -56,7 +85,76 @@
         </form>
         <button class="button clear-chat-button">Clear Chat</button>
     </div>
-
+    </main>
+    <footer class="text-center text-white" style="background-color: #f1f1f1;margin-top: 70px;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-dark" href="https://google.com">Web_Doctor_User</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
     <script src="app.js"></script>
 </body>
 
